@@ -13,7 +13,8 @@ env.bak/
 venv.bak/
 .vscode
 vscode/
+__pycache__/
 
 # the data for visualization
-**/data
+# **/data
 
