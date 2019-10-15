@@ -48,7 +48,7 @@ jupyter-core==4.4.0
 nbformat==4.4.0
 pathspec==0.5.5
 PyYAML==3.13
-requests==2.19.1
+requests==2.20.0
 semantic-version==2.5.0
 tabulate==0.7.5
 termcolor==1.1.0
