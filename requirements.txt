@@ -47,11 +47,11 @@ jsonschema
 jupyter-core==4.4.0
 nbformat==4.4.0
 pathspec==0.5.5
-PyYAML==3.13
-requests==2.19.1
+PyYAML==4.2b1
+requests==2.20.0
 semantic-version==2.5.0
 tabulate==0.7.5
 termcolor==1.1.0
 traitlets==4.3.2
-urllib3==1.23
+urllib3==1.24.2
 wincertstore==0.2
