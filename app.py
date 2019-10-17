@@ -55,6 +55,8 @@ df_42['Gun Time']                       = pd.to_timedelta(df_42['Gun Time'])
 df_10['Gun Time'] = df_10['Gun Time'].dt.seconds/60
 df_21['Gun Time'] = df_21['Gun Time'].dt.seconds/60
 df_42['Gun Time'] = df_42['Gun Time'].dt.seconds/60
+df_10['tt'] = 30
+df_21['tt'] = 30
 df_42['tt'] = 30
 
 
@@ -140,8 +142,8 @@ def update_time_graph(input_value):
     print(input_value)
     traces.append(go.Scatter(
             name="10 км",
-            x=df_42['tt']*input_value,
-            y=100*df_42['tt']*input_value/df_10['Gun Time'],
+            x=df_10['tt']*input_value,
+            y=100*df_10['tt']*input_value/df_10['Gun Time'],
             text=df_10['Стартовый'],
             mode='markers',
             opacity=0.7,
@@ -154,8 +156,8 @@ def update_time_graph(input_value):
 
     traces.append(go.Scatter(
             name="21 км",
-            x=df_42['tt']*input_value,
-            y=100*df_42['tt']*input_value/df_21['Gun Time'],
+            x=df_21['tt']*input_value,
+            y=100*df_21['tt']*input_value/df_21['Gun Time'],
             text=df_21['Стартовый'],
             mode='markers',
             opacity=0.7,
