@@ -47,7 +47,7 @@ jsonschema
 jupyter-core==4.4.0
 nbformat==4.4.0
 pathspec==0.5.5
-PyYAML==5.1.2
+PyYAML==5.4
 requests==2.22.0
 semantic-version==2.5.0
 tabulate==0.7.5
