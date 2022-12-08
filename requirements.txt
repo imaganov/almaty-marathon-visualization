@@ -32,7 +32,7 @@ xlrd==1.2.0
 
 
 cement==2.8.2
-certifi==2018.4.16
+certifi==2022.12.7
 chardet==3.0.4
 colorama==0.3.9
 Cython==0.28.3
